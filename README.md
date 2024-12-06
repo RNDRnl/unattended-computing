@@ -25,7 +25,8 @@ References:
 
 * Run PowerShell as administrator
 * Run `Get-AppxPackage *WebExperience* | Remove-AppxPackage`
-* Run `winget uninstall –id 9MSSGKG348SPCompletely U`
+* Run `winget uninstall –id 9MSSGKG348SPC`
 
 References:
  * https://answers.microsoft.com/en-us/windows/forum/all/how-to-permanently-stop-the-widgets-service-from/de082ed2-81db-4074-a334-0c9ca13f15c4
+ * https://www.thurrott.com/forums/microsoft/windows/thread/uninstall-widgets-completely
