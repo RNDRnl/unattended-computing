@@ -53,3 +53,12 @@ References:
 
 * Navigate to `System\Remote Desktop`
 * Enable Remote Desktop
+
+## Change system name
+
+The default name is Desktop-XXXXX let's change that.
+
+* Open an explorer window
+* Navigate to This PC
+* Right-click on This PC and open Properties
+* Click Rename this PC
