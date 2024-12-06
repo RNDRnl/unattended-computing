@@ -32,7 +32,7 @@ References:
  * https://www.thurrott.com/forums/microsoft/windows/thread/uninstall-widgets-completely
 
 ## Disable the web search functionality
-
+ (Optional, I just find this feature counter productive)
  * Start `regedit`
  * Navigate to `HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows`
  * If the Explorer key does not exist, right-click on `Windows` and create a new key called `Explorer`.
@@ -40,7 +40,16 @@ References:
  * Double-click on `DisableSearchBoxSuggestions` to edit it and set the Value data field to 1 and click OK.
  * Restart the machine.
    
+## Change power settings
 
+* Navigate to settings `System\Power`
+* Set Power Mode to Best Performance
+* In Screen, sleep & hibernate timeouts. Turn my screen off after: Never, Make my device sleep after: Never
+* To prevent accidental shutdowns inPower & sleep button controls.
+* - Pressing the power button will make my PC: Do Nothing
+* - Pressing the sleep button will make my PC: Do Nothing
+ 
+## Enable Remote Control
 
-
-
+* Navigate to `System\Remote Desktop`
+* Enable Remote Desktop
