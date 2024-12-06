@@ -30,3 +30,14 @@ References:
 References:
  * https://answers.microsoft.com/en-us/windows/forum/all/how-to-permanently-stop-the-widgets-service-from/de082ed2-81db-4074-a334-0c9ca13f15c4
  * https://www.thurrott.com/forums/microsoft/windows/thread/uninstall-widgets-completely
+
+## Disable the web search functionality
+
+ * Start `regedit`
+ * Navigate to `HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows`
+ * If the Explorer key does not exist, right-click on `Windows` and create a new key called `Explorer`.
+ * Create a new DWORD (32-bit) registry key and name it `DisableSearchBoxSuggestions`.
+ * Double-click on `DisableSearchBoxSuggestions` to edit it and set the Value data field to 1 and click OK.
+
+
+
