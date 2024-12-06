@@ -38,6 +38,9 @@ References:
  * If the Explorer key does not exist, right-click on `Windows` and create a new key called `Explorer`.
  * Create a new DWORD (32-bit) registry key and name it `DisableSearchBoxSuggestions`.
  * Double-click on `DisableSearchBoxSuggestions` to edit it and set the Value data field to 1 and click OK.
+ * Restart the machine.
+   
+
 
 
 
