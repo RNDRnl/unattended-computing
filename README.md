@@ -5,6 +5,7 @@ Repository with instructions for setting up Windows 11 for unattended computing
 
 To setup Windows 11 without Microsoft account press shift + F10 to spawn a console window. In the consle type:
 ```OOBE\BYPASSNRO```, the installer will boot into a version that allows skipping over the Microsoft account registration.
+This will also allow you to skip the installation of network drivers and connecting to a network.
 
 References:
  * https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account
